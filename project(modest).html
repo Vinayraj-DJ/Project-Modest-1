@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modest Project</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   <style>
+    /* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+overflow-x: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+#maindiv2{
+          
+            width: 100%;
+            
+          
+           flex-wrap: wrap;
+           display: flex;
+          justify-content: center;
+    background-color:rgb(245, 235, 235);
+   
+         gap: 50px; 
+       
+        }
+        .class1{
+            height:380px;
+            width: 327px;
+
+            border:2px solid;
+            background-image: url(../assets/images/s.png);
+         background-repeat: no-repeat;
+         grid-area: area1;
+        }
+        .class2{
+            height:380px;
+            width: 327px;
+            background-image: url(../assets/images/s.png);
+            background-repeat: no-repeat;
+            border:2px solid;
+            grid-area: area2;
+        }
+        .class3{
+            height:380px;
+            width: 327px;
+            background-image: url(../assets/images/s.png);
+            background-repeat: no-repeat;
+            border:2px solid;
+            grid-area: area3;
+        }
+        @media screen and (min-width: 0px) and (max-width: 450px) {
+           #mindiv2{
+            /* gap: 10px; */
+            display: grid;
+            grid-template-areas: 'area1 '
+            'area2''area3' ;
+
+            }
+            
+        }
+        .head4{
+height: 105px;
+text-align: center;
+
+   }
+      .head41{
+        color: white;
+      }
+      .ion{
+height: 70px;
+width: 70px;
+
+transform: translate(180%);
+}
+
+.hero {
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    max-width: 500px;
+    margin-left: 2rem;
+  
+   text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    background-color: white;
+    color: gray;
+    text-decoration: none;
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: 2px solid;
+    
+   
+}
+
+.services, .facts, .portfolio, .testimonials, .contact {
+    padding: 2rem;
+    font-size: 20px;
+}
+
+.service-box {
+    text-align: center;
+    margin: 1rem;
+    padding: 1.5rem;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+   display: flex;
+   flex-wrap: wrap;
+
+}
+.class1{
+    height:380px;
+    width: 327px;
+    border: 2px solid;
+     background-image: url(../assets/images/s.png);
+         background-repeat: no-repeat;
+}
+
+.class2{
+    height:380px;
+    width: 327px;
+    border: 2px solid;
+    background-image: url(../assets/images/s.png);
+    background-repeat: no-repeat;
+}
+.class3{
+    height:380px;
+    width: 327px;
+    border: 2px solid;
+    background-image: url(../assets/images/s.png);
+    background-repeat: no-repeat;
+}
+
+.facts {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(190, 220, 232);
+   
+   
+}
+.fac{
+   transform: translateX(1238px);
+
+   
+}
+
+
+.fact-box {
+    text-align: center;
+    flex: 1;
+    margin: 0 1rem;
+    color: white;
+
+    
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+.gallery img {
+    margin: 0.5rem;
+    max-width: 32%;
+}
+
+
+
+.contact form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.contact .map img {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.social-links a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text {
+        margin-left: 0;
+    }
+
+    .facts {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery img {
+        max-width: 100%;
+    }
+}
+.portfolio{
+    background-color: rgb(103, 103, 246);
+   
+
+}
+.map{
+  
+    width:39vw;
+}
+#maindiv5{
+            /* height: 60vh; */
+            width:99vw ;
+            /* border: 2px solid; */
+            background-color: rgb(232, 177, 177);
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: end;
+            background-repeat: no-repeat;
+            display: inline-block;
+           
+        
+         }
+         .md5{
+          display: flex;
+          justify-content: end;
+         }
+         u{
+            text-decoration-thickness: 15px;
+            text-decoration-line: underline;
+          
+         }
+         .p1{
+            display: flex;
+            justify-content: left;
+         }
+         .p2{
+            display: flex;
+            justify-content: right;
+         }
+         .navbar{
+            background-color: black;
+            color: white;
+            width: 100%;
+           
+           
+       position: fixed;
+        }
+        .navdiv{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+         
+           
+        }
+        li{
+            list-style: none;
+            display: inline-block;
+        }
+        li a{
+            color: white;
+           
+        }
+        h3{
+           font-size: 25px;
+        }
+        .c1{
+            background-color:  palevioletred;
+           
+        }
+        .c2{
+            background-color: lightblue;
+        }
+        .c3{
+            background-color:blue ;
+        }
+        .c4{
+            background-color:red ;
+        }
+        .c5{
+            background-color:wheat ;
+        }
+     
+
+       
+/*        
+        .p1{
+            font-size: 40px;
+       
+        } */
+         .logos a{
+font-size: 35px;
+font-weight: 600;
+color: antiquewhite;
+        } 
+        
+        
+         
+
+   </style>
+</head>
+<body>
+    <header style="height: 30px;">
+    <div id="mainmaindiv">
+ 
+        <nav class="navbar nb" style="z-index: 1;">
+            <div class="navdiv nd" style="justify-content: space-around;">
+                <div class="logos "><h3 style="font-size: 30px;" >MODEST</h3></div>
+                <ul style="font-size: 20px;">
+                    <li ><a href="#maindiv2" class="c1 c" >SERVICES</a></li>
+                    <li><a href="#facts" class="c2 c">FACTS</a></li>
+                    <li><a href="#portfolio" class="c3 c">PORTFOLIO</a></li>
+                    <li><a href="#maindiv5"class="c4 c">CLIENTS</a></li>
+                    <li><a href="#contact" class="c5 c">CONTACTS</a></li>
+                   
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+
+    <section class="hero">
+        <div class="hero-image">
+            <img src="../assets/images/5 (1).jpg" alt="Clock Image" height="300vh" width="300vw">
+        </div>
+        <div class="hero-text">
+            <h1>WE MAKE CLEAR AND MINIMAL APPS</h1>
+            <p>We are a small group of designers and developers from the small island. Feel free to talk to us about your projects. We are happy and ready to assist you.</p>
+            <a href="#learn-more" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <div id="maindiv2"> 
+        <div class="wd"></div>
+       <div class="class1 ca1">
+           
+           
+         <h4 class="head4 head41">WEB DEVELOPMENT</h4>
+         <ion-icon class="ion" name="document-outline"></ion-icon>
+       <p class="text">Modest is<b > free responsive template,</b> mobile ready layout, and animated contents. You can use this template for your website. Please tell your friends about it. Thank you.</p>   
+       </div>
+       <div class="class2 ca1">
+         
+           <h4 class="head4 head41">QUALITY PHOTOGRAPHY</h4>
+           <ion-icon class="ion" name="camera-outline"></ion-icon>
+       <p class="text">Modest template is provided by <b> templatemo.com </b>website. Fusce pretium, elit vel ornare porta, felis lorem ornare metus, in vulputate nibh odio ut ligula.</p></div>
+       <div class="class3 ca1">
+           
+           <h4 class="head4 head41">WORLDWIDE SUPPORT</h4> 
+           <ion-icon class="ion" name="earth-outline"></ion-icon>
+    
+       <p class="text">Quisque a lobortis ante. Sed a adipiscing tortor. In nec imperdiet justo. Fusce pretium, elit vel ornare porta, felis lorem ornare metus, in vulputate nibh odio ut ligula.</p></div>
+   </div>
+   </div>
+   </div>
+
+    <section class="facts " id="facts">
+        <div class="fac"><img src="../assets/images/header-bg-light-blue.png" alt=""><p style="transform: translateY(-50px); text-align: end; color: white;">SUM FUN FACTS</p></div>
+        <div style="transform: translateX(1238px);">
+            <div class="maindiv31" style="transform: translateX(10px); transform: translateY(10px);"><p class="p2" style="color: white;">SOME FUN FACY</p></div>
+            
+        </div>
+        <div class="fact-box"><br><br><br>
+            <u> <h3>1604 </h3></u>
+            <p>Projects Completed</p>
+        </div>
+        <div class="fact-box"><br><br><br>
+           <u><h3>21</h3></u> 
+            <p>Team Members</p>
+        </div>
+        <div class="fact-box"><br><br><br>
+           <u> <h3>302</h3></u>
+            <p>Satisfied Clients</p>
+        </div>
+        <div class="fact-box"><br><br><br>
+           <u><h3>946</h3></u> 
+            <p>Cups of Coffee</p>
+        </div>
+    </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div style="  transform: translatex(-30px);"> <img src="../assets/images/header-bg-blue.png" alt=""></div>
+        <div style="color: white;; transform: translateY(-47px); " ><p class="p1">OUR LOVELY WORK</p></div>
+        <div class="gallery" style="background-color: white;">
+            <img src="../assets/images/1.jpg" alt="Image 1">
+            <img src="../assets/images/2.jpg" alt="Image 2">
+            <img src="../assets/images/3.jpg" alt="Image 3">
+            <img src="../assets/images/4.jpg" alt="Image 4">
+            <img src="../assets/images/5 (1).jpg" alt="Image 5">
+            <img src="../assets/images/6.jpg" alt="Image 6">
+        </div>
+    </section>
+    <div id="maindiv5" ><div><div class="md5">
+        <img style="display: flex; justify-content: end; transform: translate(150px);" src="../assets/images/header-bg-red.png" alt=""  height="50vh" width="250vw"><div></div>
+    <div style="display: flex;color: white; justify-content:end;transform: translate(-30px); font-size: ;font-size: 18px;"><p class="p2">WHAT CLIENTS SAY</p></div></div> <br>
+    <div>
+        <img style="border-radius: 50%; border: 5px solid;transform: translateX(750px); display: flex; flex-wrap: wrap;" src="https://images.squarespace-cdn.com/content/v1/519dc376e4b0726806f1fb72/1408410514670-W659DFKRUDB5HSCP97KD/image-asset.png?format=500w" alt="" height="50vh" width="50vw">
+    </div>
+    <br>
+    <br>
+        <p style="text-align: center;">Odit nesciunt, voluptates optio numquam error, aut quis eius nostrum. Impedit eaque corrupti quis facere nobis, quam commodi. Repellat vel suscipit ut. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    </div>
+    <div style="text-align: center; font-size: 20PX; color: white;">- CINDY THREE -</div><br><br><br>
+        </p>
+    </div>
+
+   
+    
+
+    <section class="contact" id="contact" >
+        <div class="content11"><img  src="../assets/images/header-bg-gray.png" alt="">
+    <p  class="p1" style="transform: translatey(-50px);"> STAY IN TOUCH</p></div>
+        <div style="display: flex; flex-wrap: wrap; gap: 100px;">
+        <form >
+            <label for="name" >Name</label>
+            <input type="text" id="name" name="name" size="60px" required>
+            
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="message">Describe Your Project</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <div style="text-align: center;">
+            <button type="submit">Send Message</button></div>
+        </form>
+
+        <div class="map">
+            <img src="../assets/images/Screenshot 2024-09-26 083438.png
+            " alt="Map"  >
+            <div style="text-align: center;" >
+                <div> <p ><strong>Email:</strong><a href="">info@company.com</a> </p>
+                 <p > <strong>Phone:</strong> 080-070-0120</p></div>
+                 <div style=" text-align: center; "><p >Qui laudantium dignissimos eaque maxime obcaecati animi, maiores delectus voluptatum possimu.</p></div>
+             </div>
+        </div>
+    </div>
+    </section>
+
+    <footer>
+        <div style="flex-direction: column; display: flex;">
+        <p style="text-align: left;">Copyright © 2024 Company Name | Design: Modest</p>
+        <div class="social-links" style="text-align: end; transform: translateY(-25px);">
+            <ion-icon name="logo-facebook" ></ion-icon>
+            <a href="#">Facebook</a>
+            <ion-icon name="logo-twitter"></ion-icon>
+            <a href="#">Twitter</a>
+            <ion-icon name="logo-youtube" ></ion-icon> 
+            <a href="#">YouTube</a>
+        </div>
+    </div>
+    </footer>
+
+</body>
+</html>
